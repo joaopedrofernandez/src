@@ -11,12 +11,12 @@ import java.util.ArrayList;
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme("Vingadores Gerra Infinita", 2019);
-        // teste para commit
 
         meuFilme.setDuraçãoEmMinuto(180);
         meuFilme.setIncluidoNoPlano(true);
 
         meuFilme.fichaTecnica();
+        //segundo teste para o commit 
 
         meuFilme.avalia(8);
         meuFilme.avalia(5);
