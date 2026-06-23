@@ -15,7 +15,9 @@ public class Principal {
         meuFilme.setDuraçãoEmMinuto(180);
         meuFilme.setIncluidoNoPlano(true);
 
-        meuFilme.fichaTecnica(); 
+        meuFilme.fichaTecnica();
+
+        //teste do intellij
 
         meuFilme.avalia(8);
         meuFilme.avalia(5);
