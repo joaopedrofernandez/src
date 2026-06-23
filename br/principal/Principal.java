@@ -15,7 +15,7 @@ public class Principal {
         meuFilme.setDuraçãoEmMinuto(180);
         meuFilme.setIncluidoNoPlano(true);
 
-        meuFilme.fichaTecnica();
+        meuFilme.fichaTecnica(); 
 
         meuFilme.avalia(8);
         meuFilme.avalia(5);
@@ -24,6 +24,7 @@ public class Principal {
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliação());
         System.out.println("Media das avaliações: " + meuFilme.retornaMedia());
 
+        ///
 
         Series minhaSerie = new Series(("Perdidos no espaço"), 2020);
 
