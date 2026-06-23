@@ -21,6 +21,8 @@ public class Principal {
         meuFilme.avalia(5);
         meuFilme.avalia(10);
 
+
+
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliação());
         System.out.println("Media das avaliações: " + meuFilme.retornaMedia());
 
