@@ -24,8 +24,6 @@ public class Principal {
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliação());
         System.out.println("Media das avaliações: " + meuFilme.retornaMedia());
 
-        ///
-
         Series minhaSerie = new Series(("Perdidos no espaço"), 2020);
 
         minhaSerie.setIncluidoNoPlano(true);
